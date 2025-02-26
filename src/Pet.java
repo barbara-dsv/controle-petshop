@@ -1,10 +1,9 @@
 public class Pet {
-    //Essa classe representa um pet
+
     private final String name;
 
     private boolean clean;
 
-    //construtor
     public Pet(final String name){
         this.name = name;
         this.clean= false;
